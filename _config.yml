@@ -1,0 +1,31 @@
+# Jekyll Configuration for VoidOps Technical Blog
+
+title: VoidOps Blog
+description: Technical insights and project updates from VoidOps
+url: https://blog.voidops.space
+baseurl: ""
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Site settings
+lang: en
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
